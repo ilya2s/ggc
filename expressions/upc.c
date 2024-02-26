@@ -14,7 +14,11 @@ int main (void) {
     scanf("%1d%1d%1d%1d%1d", &i6, &i7, &i8, &i9, &i10);
 
     first_sum = d + i2 + i4 + i6 + i8 + i10;
+    printf("first_sum: %d\n", first_sum);
+
     second_sum = i1 + i3 + i5 + i7 + i9;
+    printf("second_sum: %d\n", second_sum);
+
     total = 3 * first_sum + second_sum;
 
     printf("Check digit: %d\n", 9 - (total - 1) % 10);

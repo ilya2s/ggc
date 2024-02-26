@@ -16,4 +16,6 @@ int main(void) {
     }
 
     printf("In octal, your number is: %.5d\n", output);
+
+    return 0;
 }
