@@ -1,9 +1,9 @@
-CFLAGS=-W -Wall -g 
+CFLAGS=-W -Wall -g
 
 BIN=./bin/
 SRC=./
 
-PROG=ex01 ex07
+PROG=oct-hex sum2
 LIST=$(addprefix $(BIN), $(PROG))
 
 all: $(LIST)
