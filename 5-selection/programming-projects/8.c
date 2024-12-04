@@ -25,11 +25,11 @@ int main(void) {
     int d8 = 1305, a8 = 1438;
 
     printf("Enter a 24-hour time: ");
-    scanf("%2d:%2d", &hours, &minutes);
+    scanf("%d:%d", &hours, &minutes);
 
     time = (60 * hours) + minutes;
 
-    // time < midway between d1 and d2 => (closest to d1)
+    // time < midway between d1 and d2 (closest to d1)
     if (time < d1 + (d2 - d1) / 2) {
         departure = d1;
         arrival = a1;
