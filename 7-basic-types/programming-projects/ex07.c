@@ -13,7 +13,7 @@ int main(int argc, char *argv[]) {
     printf("Enter two fractions seperated by +, -, * or /: ");
 
     /*
-     * sizeof(input_line) is 100 (100 bytes/800 bits - 1 byte/8 bits per char)
+     * sizeof(input_line) is 100 (100 bytes/800 bits <-> 1 byte/8 bits per char)
      *
      * fgets reads sizeof(input_line) - 1 = 99 chars from stdin and stores them
      * in input_line buffer
